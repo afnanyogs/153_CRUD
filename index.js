@@ -40,3 +40,8 @@ app.get('/api/mahasiswa', (req, res) => {
     res.json(results);
   });
 });
+app.post('/api/mahasiswa', (req, res) => {
+  const {nama, alamat, agama} = req.body;
+
+  
+});
